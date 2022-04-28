@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+section{
+
+    align-items: center;
+    border:solid;
+}
+
+.quems{
+	
+}

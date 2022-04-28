@@ -1,0 +1,50 @@
+<%@ taglib prefix="s" uri="/struts-tags"%>
+ 2<%@ taglib prefix="sjm" uri="/struts-jquery-mobile-tags"%>
+ 3<jsp:include page="inc.header.jsp" />
+ 4		<sjm:div role="page" id="sliderpage">
+ 5			<sjm:div role="header">
+ 6				<sjm:a button="true" buttonIcon="arrow-l" data-rel="back">Back</sjm:a>
+ 7				<h1>Examples for Slider Tag</h1>
+ 8				<sjm:a href="#start" button="true" buttonIcon="home">Back to Start</sjm:a>
+ 9			</sjm:div>
+10
+11			<sjm:div role="content">
+12				<form>
+13					<sjm:slider
+14						id="slider1"
+15			    		name="slider1"
+16			            label="Slider One"
+17			        />
+18                    <sjm:slider
+19                        id="slider2"
+20                        name="slider2"
+21                        label="Slider Two"
+22                        min="100"
+23                        max="250"
+24                        value="175"
+25                    />
+26				</form>
+27	    		<sjm:div role="collapsible" data-collapsed="true">
+28	    			<h3>Example Code</h3>
+29					<pre>
+30&lt;sjm:slider
+31  id=&quot;slider1&quot;
+32  name=&quot;slider1&quot;
+33  label=&quot;Slider One&quot;
+34/&gt;
+35&lt;sjm:slider
+36  id=&quot;slider2&quot;
+37  name=&quot;slider2&quot;
+38  label=&quot;Slider Two&quot;
+39  min=&quot;100&quot;
+40  max=&quot;250&quot;
+41  value=&quot;175&quot;
+42/&gt;
+43					</pre>
+44	    		</sjm:div>
+45			</sjm:div>
+46
+47			<jsp:include page="inc.footer.jsp" />
+48		</sjm:div>
+49	</body>
+50</html>

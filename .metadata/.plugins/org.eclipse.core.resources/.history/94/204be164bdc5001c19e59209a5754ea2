@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+section{
+  border:solid;
+  color: black;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quems{
+	magin-top:100px;
+	margin-left:42%;
+}

@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+section{
+  border:solid;
+  color: black;
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

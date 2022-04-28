@@ -1,0 +1,6 @@
+.form{
+	border:solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

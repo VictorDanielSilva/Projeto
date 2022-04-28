@@ -1,0 +1,76 @@
+ <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+ 	pageEncoding="ISO-8859-1"%>
+
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetHelp</title>
+    <link rel="stylesheet" type="text/css"href="css/estilo.css">
+</head>
+
+<header>
+    <div class="container-logo">
+        <div class="logo-imagem">
+            <img alt="logo" src="img/_imagem/logo-removebg-preview (2).png">
+        </div>
+        
+    </div>
+    <div class="botao">
+        <ul>
+            <li><a href="index.jsp">Home</a></li>
+            <li><a href="disciplinas.jsp">Disciplinas</a></li>
+            <li><a>Chat de Duvídas</a></li>
+            <li><a href="quemsomos.jsp">Quem Somos</a></li>
+            <li><a>Contato</a></li>
+        </ul>
+    </div>
+    <div class="login">
+        <h3><a href="login.jsp">Login</a></h3>
+    </div>
+</header>
+
+ 
+  <div id="carouselExampleControls" class="carousel slide" data-   ride="carousel">
+     <div class="carousel-inner">
+        <div class="carousel-item active">
+        <p class="d-block w-100"> 
+        Slide 1
+        <div id="jspdiv1"></div>
+      </p>
+    </div>
+    <div class="carousel-item">
+      <p class="d-block w-100">
+        Slide 2
+        <div id="jspdiv2"></div>
+      </p>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+  <script>
+  var ind = 0;
+  $('#carouselExampleControls').bind('slid.bs.carousel', function (e) {
+    if(e.direction =='right'){
+     ind++;
+     console.log("right "+ind);
+     $("#jspdiv1").text("Slided right "+ind);
+    }
+    else if(e.direction == 'left'){
+         ind--;
+     console.log("left "+ind);
+     $("#jspdiv2").text("Slided left "+ind);
+    }
+    console.log(e);
+    });
+    </script>

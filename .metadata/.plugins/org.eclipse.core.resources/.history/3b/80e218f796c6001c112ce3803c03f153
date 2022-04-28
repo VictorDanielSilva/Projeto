@@ -1,0 +1,7 @@
+.form{
+	magin-top: 100px;
+	display: flex;
+	border-radious: 10px;
+	
+}
+

@@ -1,0 +1,7 @@
+.form{
+	border:solid;
+	border-radious: 10px;
+	justify-content: center;
+	align-items: center;
+}
+

@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+.cto{
+	magin-left: 500px;
+	magin-top: 50%;
+}
+

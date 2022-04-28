@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+.cto{
+	magin-left: 50%;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+

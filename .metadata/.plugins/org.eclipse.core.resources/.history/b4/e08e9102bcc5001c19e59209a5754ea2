@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+section{
+    align-text: center;
+    border:solid;
+    position: absolute;
+  	top: 50%;
+ 	height: 100px;
+ 	margin-top: -50px; 
+}
+

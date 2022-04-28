@@ -1,0 +1,4 @@
+.imagem {
+    margin:0 auto; /* margem vertical definida como 0 e horizontal automática */
+    width:200px;
+}

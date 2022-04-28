@@ -1,0 +1,14 @@
+.form{
+	display: flex;
+	border:solid;
+	border-radius:10px;
+	
+}
+
+.log{
+	 align-items: center;
+	 color:black;
+	 font-family: Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	 
+}
+

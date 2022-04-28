@@ -1,0 +1,15 @@
+.form{
+	
+	margin-top:50px;
+	
+
+}
+
+.log{
+	 display: inline-block;
+    width: 90px;
+	 color:black;
+	 font-family: Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	 
+}
+
